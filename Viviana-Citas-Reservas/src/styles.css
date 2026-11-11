@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Poppins:wght@300;400;500;600&display=swap');
+:root{--violet:#2d1b4e;--violet2:#4a2c7a;--teal:#2ec4b6;--rose:#f4a6a0;--gold:#e9c46a;--cream:#fdf8f3;--text:#2b2340}
+*{box-sizing:border-box;margin:0}
+body{font-family:'Poppins',sans-serif;background:var(--cream);color:var(--text)}
+h1,h2,h3{font-family:'Playfair Display',serif}
+.btn{display:inline-block;border:0;cursor:pointer;padding:.9rem 2rem;border-radius:50px;font:600 1rem 'Poppins';color:#fff;text-decoration:none;
+background:linear-gradient(135deg,var(--teal),#1b9aaa);box-shadow:0 8px 20px rgba(46,196,182,.4);transition:.3s}
+.btn:hover{transform:translateY(-4px) scale(1.03);box-shadow:0 14px 28px rgba(46,196,182,.5)}
+.btn:disabled{opacity:.5;cursor:not-allowed;transform:none}
+.btn.rose{background:linear-gradient(135deg,var(--rose),#e76f51);box-shadow:0 8px 20px rgba(231,111,81,.35)}
+.page{max-width:1100px;margin:0 auto;padding:3rem 1.5rem}
+.title{font-size:2.6rem;color:var(--violet);text-align:center;margin-bottom:.5rem}
+.sub{text-align:center;color:#7a6f94;margin-bottom:2.5rem}
+@keyframes up{from{opacity:0;transform:translateY(30px)}to{opacity:1;transform:none}}
